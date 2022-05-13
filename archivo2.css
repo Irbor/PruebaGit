@@ -19,7 +19,7 @@ p {
   color: #102f;
 }
 
-.container {
+.container-email {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,4 +54,19 @@ button {
 
 button:hover {
   color: rgb(187, 26, 26);
+}
+
+.container-pass {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.password {
+  margin-top: 5px;
+  height: 25px;
+  width: 400px;
+  border-style: none;
+  background-color: #777;
+  color: red;
 }
