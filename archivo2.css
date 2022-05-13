@@ -18,3 +18,40 @@ p {
   font-size: 30px;
   color: #102f;
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  height: 25px;
+  width: 500px;
+  background: goldenrod;
+  color: rgb(49, 73, 14);
+  border-style: none;
+  text-decoration: none;
+}
+
+.container-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  font-size: 25px;
+  background-color: darkblue;
+  width: 100px;
+  height: 50px;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  border-style: none;
+}
+
+button:hover {
+  color: rgb(187, 26, 26);
+}
